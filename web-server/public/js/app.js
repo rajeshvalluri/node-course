@@ -1,4 +1,3 @@
-console.log('client side javascript is running')
 
 const weatherForm = document.querySelector('form')
 const searchelement = document.querySelector('input') //data in the searchbox
