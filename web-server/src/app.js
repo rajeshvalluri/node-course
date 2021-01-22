@@ -2,6 +2,8 @@ const express = require('express')
 const path = require('path')
 const hbs = require('hbs')
 const requet = require('request')
+const port = process.env.PORT || '3000'
+
 
 const app = express()
 const viewsPath = path.join(__dirname,'../templates/views')
